@@ -1,0 +1,4069 @@
+{
+ "meta": {
+  "generatedAt": "2026-09-15T04:22+00:00",
+  "source": "CS_Timetable_Fall_2026-V2_2.xlsx",
+  "days": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday"
+  ],
+  "dayStart": "08:30",
+  "dayEnd": "16:00"
+ },
+ "sections": {
+  "SE-02": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Programming Fundamentals Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    },
+    {
+     "start": "11:00",
+     "end": "12:30",
+     "subject": "Functional English",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Quantitative reasoning -I",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)",
+     "room": "6411",
+     "type": "class"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "11:00",
+     "end": "12:30",
+     "subject": "Functional English",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Quantitative reasoning -I",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)",
+     "room": "6411",
+     "type": "class"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "09:30",
+     "end": "11:00",
+     "subject": "Programming Fundamentals",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Application of ICT",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Quantitative reasoning -I",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "subject": "Activities SLOT(14:00-16:00)",
+     "room": null,
+     "type": "activity"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "09:30",
+     "end": "11:00",
+     "subject": "Programming Fundamentals",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Application of ICT",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Pakistan Studies",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Application of Information & Communication Technologies- Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Pakistan Studies",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    }
+   ],
+   "Saturday": []
+  },
+  "DS-03": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "10:00",
+     "subject": "Functional English",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Quantitative reasoning -I",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Pakistan Studies",
+     "room": "7320",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)",
+     "room": "6411",
+     "type": "class"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "10:00",
+     "subject": "Functional English",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Application of Information & Communication Technologies- Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Pakistan Studies",
+     "room": "7320",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)",
+     "room": "6411",
+     "type": "class"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Application of ICT",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "12:30",
+     "subject": "Programming Fundamentals",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Quantitative reasoning -I",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "subject": "Activities SLOT(14:00-16:00)",
+     "room": null,
+     "type": "activity"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Application of ICT",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "12:30",
+     "subject": "Programming Fundamentals",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Pakistan Studies",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Quantitative reasoning -I",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Programming Fundamentals Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Pakistan Studies",
+     "room": "6323",
+     "type": "class"
+    }
+   ],
+   "Saturday": []
+  },
+  "AI-03": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Application of ICT",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Programming Fundamentals",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Application of Information & Communication Technologies- Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Pakistan Studies",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)",
+     "room": "6411",
+     "type": "class"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Programming Fundamentals",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Functional English",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Pakistan Studies",
+     "room": "7320",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Application of ICT",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)",
+     "room": "6411",
+     "type": "class"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Quantitative reasoning -I",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Programming Fundamentals",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Programming Fundamentals Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "subject": "Activities SLOT(14:00-16:00)",
+     "room": null,
+     "type": "activity"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Quantitative reasoning -I",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Functional English",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "14:55",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Quantitative reasoning -I",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Functional English",
+     "room": "6404",
+     "type": "class"
+    }
+   ],
+   "Saturday": []
+  },
+  "CS-07-A": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Programming Fundamentals",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Application of ICT",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "12:00",
+     "end": "13:30",
+     "subject": "Functional English",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Quantitative reasoning -I",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Pakistan Studies",
+     "room": "6401",
+     "type": "class"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Application of Information & Communication Technologies- Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    },
+    {
+     "start": "12:30",
+     "end": "14:00",
+     "subject": "Functional English",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Pakistan Studies",
+     "room": "6401",
+     "type": "class"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Programming Fundamentals",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Programming Fundamentals Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Programming Fundamentals",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Quantitative reasoning -I",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)",
+     "room": "6411",
+     "type": "class"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Application of ICT",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Quantitative reasoning -I",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)",
+     "room": "6411",
+     "type": "class"
+    }
+   ],
+   "Saturday": []
+  },
+  "CS-07-B": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Pakistan Studies",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Programming Fundamentals",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Quantitative reasoning -I",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Application of Information & Communication Technologies- Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Pakistan Studies",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Functional English",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Quantitative reasoning -I",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Application of ICT",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Programming Fundamentals Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Functional English",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Programming Fundamentals",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "12:00",
+     "end": "13:00",
+     "subject": "Application of ICT",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Activities SLOT",
+     "room": null,
+     "type": "activity"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Functional English",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Programming Fundamentals",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Quantitative reasoning -I",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)",
+     "room": "6411",
+     "type": "class"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)",
+     "room": "6411",
+     "type": "class"
+    }
+   ],
+   "Saturday": []
+  },
+  "SE-01": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Information Security",
+     "room": "7320",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Software Engineering",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Computer Networks Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Multivariable Calculus",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "15:30",
+     "subject": "Probability & Statistics",
+     "room": "7322",
+     "type": "class"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Data Structures Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
+    },
+    {
+     "start": "11:00",
+     "end": "12:30",
+     "subject": "Fehm-e-Quran-I",
+     "room": "6401",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Computer Networks",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Multivariable Calculus",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "15:30",
+     "subject": "Probability & Statistics",
+     "room": "7322",
+     "type": "class"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Software Engineering",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Data Structures",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Computer Networks",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "subject": "Activities SLOT(14:00-16:00)",
+     "room": null,
+     "type": "activity"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Software Engineering",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Information Security",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Data Structures",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Probability & Statistics",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Multivariable Calculus",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "10:00",
+     "subject": "Fehm-e-Quran-I",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Data Structures",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Information Security Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    }
+   ],
+   "Saturday": []
+  },
+  "DS-02": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Computer Networks Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Information Security",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Software Engineering",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Computer Networks",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "15:30",
+     "subject": "Probability & Statistics",
+     "room": "6402",
+     "type": "class"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Multivariable Calculus",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Information Security",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Data Structures Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Computer Networks",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "15:30",
+     "subject": "Probability & Statistics",
+     "room": "6402",
+     "type": "class"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Fehm-e-Quran-II",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Probability & Statistics",
+     "room": "7320",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Data Structures",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Information Security Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Software Engineering",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Multivariable Calculus",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Data Structures",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Fehm-e-Quran-II",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Software Engineering",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Multivariable Calculus",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Fehm-e-Quran-II",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Data Structures",
+     "room": "7418",
+     "type": "class"
+    }
+   ],
+   "Saturday": []
+  },
+  "AI-02": {
+   "Monday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Probability & Statistics",
+     "room": "7320",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Data Structures",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Software Engineering",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Information Security",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "15:30",
+     "subject": "Computer Networks",
+     "room": "7308",
+     "type": "class"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "10:00",
+     "subject": "Fehm-e-Quran-II",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Data Structures",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Software Engineering",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "14:30",
+     "end": "15:30",
+     "subject": "Computer Networks",
+     "room": "7308",
+     "type": "class"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Data Structures",
+     "room": "7320",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Information Security Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Computer Networks Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Probability & Statistics",
+     "room": "7320",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Software Engineering",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "09:00",
+     "end": "10:00",
+     "subject": "Probability & Statistics",
+     "room": "7320",
+     "type": "class"
+    },
+    {
+     "start": "10:00",
+     "end": "11:30",
+     "subject": "Fehm-e-Quran-II",
+     "room": "7320",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Information Security",
+     "room": "7320",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Data Structures Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
+    }
+   ],
+   "Saturday": []
+  },
+  "CS-06-A": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Information Security",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Data Structures",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Computer Networks",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Software Engineering",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Probability & Statistics",
+     "room": "7322",
+     "type": "class"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Information Security",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Data Structures",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Computer Networks",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Software Engineering",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Information Security Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Probability & Statistics",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Multivariable Calculus",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Software Engineering",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Data Structures",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "subject": "Activities SLOT(14:00-16:00)",
+     "room": null,
+     "type": "activity"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Probability & Statistics",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Multivariable Calculus",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "12:00",
+     "end": "13:30",
+     "subject": "Fehm-e-Quran-1",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Computer Networks Lab",
+     "room": "IT Lab 5",
+     "type": "lab"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Data Structures Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "14:00",
+     "subject": "Fehm-e-Quran-1",
+     "room": "7320",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    }
+   ],
+   "Saturday": []
+  },
+  "CS-06-B": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Data Structures",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Information Security",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Software Engineering",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Computer Networks",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Data Structures Lab",
+     "room": "IT Lab 5",
+     "type": "lab"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Data Structures",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Software Engineering",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus",
+     "room": "7320",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Computer Networks",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Information Security",
+     "room": "6404",
+     "type": "class"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Data Structures",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Software Engineering",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "14:00",
+     "subject": "Probability & Statistics",
+     "room": "6404",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "subject": "Activities SLOT(14:00-16:00)",
+     "room": null,
+     "type": "activity"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "09:30",
+     "end": "11:00",
+     "subject": "Fehm-e-Quran-1",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "12:30",
+     "subject": "Probability & Statistics",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Multivariable Calculus",
+     "room": "7308",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Information Security Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "09:30",
+     "end": "11:00",
+     "subject": "Fehm-e-Quran-1",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Computer Networks Lab",
+     "room": "IT Lab 5",
+     "type": "lab"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    }
+   ],
+   "Saturday": []
+  },
+  "DS-01": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Operating Systems Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Operating Systems",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Natural Language Processing",
+     "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Data Warehousing & Business Intelligence",
+     "room": "6404",
+     "type": "class"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Natural Language Processing",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Data Warehousing & Business Intelligence Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Natural Language Processing Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Data Warehousing & Business Intelligence",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Data Mining",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Operating Systems",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Activities SLOT",
+     "room": null,
+     "type": "activity"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Business Process Analysis",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Data Mining",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Data Mining Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Social Science (Example: Applied Psychology)",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Social Science (Example: Applied Psychology)",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Business Process Analysis",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Business Process Analysis",
+     "room": "IT Lab 3",
+     "type": "lab"
+    }
+   ],
+   "Saturday": []
+  },
+  "AI-01": {
+   "Monday": [
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Natural Language Processing",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Artificial Neural Network & Deep Learning",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Natural Language Processing Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Operating Systems Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Natural Language Processing",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Data Mining Lab",
+     "room": "IT Lab 5",
+     "type": "lab"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Operating Systems",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "12:00",
+     "subject": "Knowledge Representation & Reasoning",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "12:00",
+     "end": "13:00",
+     "subject": "Data Mining",
+     "room": "7322",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "subject": "Activities SLOT(14:00-16:00)",
+     "room": null,
+     "type": "activity"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Operating Systems",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "12:00",
+     "subject": "Knowledge Representation & Reasoning",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Social Science (Example: Applied Psychology)",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Artificial Neural Network & Deep Learning-Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Data Mining",
+     "room": "6402",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Social Science (Example: Applied Psychology)",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Artificial Neural Network & Deep Learning",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    }
+   ],
+   "Saturday": []
+  },
+  "CS-05-A": {
+   "Monday": [
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Web Technologies",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "HCI & Computer Graphics",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Social Science (Example: Applied Psychology)",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Web Technologies Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Computer Architecture",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "HCI & Computer Graphics",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Social Science (Example: Applied Psychology)",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Operating Systems",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Web Technologies",
+     "room": "6323",
+     "type": "class"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "HCI & Computer Graphics-Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "subject": "Activities SLOT(14:00-16:00)",
+     "room": null,
+     "type": "activity"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Operating Systems Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Mobile Application Development Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Mobile Application Development",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Computer Architecture",
+     "room": "6404",
+     "type": "class"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Computer Architecture Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Operating Systems",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Mobile Application Development",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    }
+   ],
+   "Saturday": []
+  },
+  "CS-05-B": {
+   "Monday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Computer Architecture",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "HCI & Computer Graphics",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Social Science (Example: Applied Psychology)",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Web Technologies",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Operating Systems",
+     "room": "6323",
+     "type": "class"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Computer Architecture",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "HCI & Computer Graphics",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Social Science (Example: Applied Psychology)",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Web Technologies",
+     "room": "6323",
+     "type": "class"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Operating Systems Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "HCI & Computer Graphics-Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "subject": "Activities SLOT(14:00-16:00)",
+     "room": null,
+     "type": "activity"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Web Technologies Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Computer Architecture Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Mobile Application Development",
+     "room": "6405",
+     "type": "class"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Operating Systems",
+     "room": "6323",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Mobile Application Development Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Mobile Application Development",
+     "room": "6405",
+     "type": "class"
+    }
+   ],
+   "Saturday": []
+  },
+  "CS-04-A": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Analysis of Algorithms",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Cloud Computing Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Technical & Business Writing",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Cloud Computing",
+     "room": "6405",
+     "type": "class"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Analysis of Algorithms",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "12:00",
+     "subject": "Principles of Management",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Technical & Business Writing",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Cloud Computing",
+     "room": "6405",
+     "type": "class"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Analysis of Algorithms",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "10:30",
+     "end": "12:00",
+     "subject": "Principles of Management",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "12:00",
+     "end": "14:00",
+     "subject": "Entrepreneurship",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "subject": "Activities SLOT(14:00-16:00)",
+     "room": null,
+     "type": "activity"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Technical & Business Writing",
+     "room": "7306",
+     "type": "class"
+    }
+   ],
+   "Saturday": []
+  },
+  "CS-04-B": {
+   "Monday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Analysis of Algorithms",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Cloud Computing",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Technical & Business Writing",
+     "room": "7306",
+     "type": "class"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Analysis of Algorithms",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "12:00",
+     "end": "13:30",
+     "subject": "Principles of Management",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Cloud Computing",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Technical & Business Writing",
+     "room": "7306",
+     "type": "class"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Entrepreneurship",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Analysis of Algorithms",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Entrepreneurship",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "12:00",
+     "end": "13:30",
+     "subject": "Principles of Management",
+     "room": "6405",
+     "type": "class"
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "subject": "Activities SLOT(14:00-16:00)",
+     "room": null,
+     "type": "activity"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session",
+     "room": null,
+     "type": "advisory"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Technical & Business Writing",
+     "room": "7306",
+     "type": "class"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Cloud Computing Lab",
+     "room": "IT Lab 3",
+     "type": "lab"
+    }
+   ],
+   "Saturday": []
+  }
+ },
+ "rooms": {
+  "6323": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Pakistan Studies"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Computer Architecture"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "HCI & Computer Graphics"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "HCI & Computer Graphics"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Web Technologies"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Operating Systems"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Operating Systems"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Pakistan Studies"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Computer Architecture"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "HCI & Computer Graphics"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "HCI & Computer Graphics"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Web Technologies"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Operating Systems"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Web Technologies"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Functional English"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Operating Systems"
+    },
+    {
+     "start": "10:30",
+     "end": "12:00",
+     "subject": "Knowledge Representation & Reasoning"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Data Structures"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Operating Systems"
+    },
+    {
+     "start": "10:30",
+     "end": "12:00",
+     "subject": "Knowledge Representation & Reasoning"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Pakistan Studies"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Pakistan Studies"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "10:00",
+     "subject": "Fehm-e-Quran-I"
+    },
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Operating Systems"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Operating Systems"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Pakistan Studies"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Pakistan Studies"
+    }
+   ],
+   "Saturday": []
+  },
+  "6401": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "10:00",
+     "subject": "Functional English"
+    },
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Application of ICT"
+    },
+    {
+     "start": "12:00",
+     "end": "13:30",
+     "subject": "Functional English"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Pakistan Studies"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "10:00",
+     "subject": "Functional English"
+    },
+    {
+     "start": "11:00",
+     "end": "12:30",
+     "subject": "Fehm-e-Quran-II"
+    },
+    {
+     "start": "12:30",
+     "end": "14:00",
+     "subject": "Functional English"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Pakistan Studies"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "10:00",
+     "subject": "Fehm e Quran 1"
+    },
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Application of ICT"
+    },
+    {
+     "start": "11:00",
+     "end": "12:30",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "subject": "Activities SLOT(14:00-16:00)"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "09:00",
+     "end": "10:00",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Application of ICT"
+    },
+    {
+     "start": "11:00",
+     "end": "12:30",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Application of ICT"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "14:30",
+     "end": "15:30",
+     "subject": "Fehm-e-Quran-II"
+    }
+   ],
+   "Saturday": []
+  },
+  "6402": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "11:00",
+     "end": "12:30",
+     "subject": "Functional English"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "14:30",
+     "end": "15:30",
+     "subject": "Probability & Statistics"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Multivariable Calculus"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Information Security"
+    },
+    {
+     "start": "11:00",
+     "end": "12:30",
+     "subject": "Functional English"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "14:30",
+     "end": "15:30",
+     "subject": "Probability & Statistics"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "09:30",
+     "end": "11:00",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Application of ICT"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "14:00",
+     "end": "16:00",
+     "subject": "Activities SLOT(14:00-16:00)"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "09:30",
+     "end": "11:00",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Application of ICT"
+    },
+    {
+     "start": "12:00",
+     "end": "13:30",
+     "subject": "Fehm-e-Quran-1"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Advisory /Tuturial Session"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Data Mining"
+    },
+    {
+     "start": "12:00",
+     "end": "13:00",
+     "subject": "Multivariable Calculus"
+    }
+   ],
+   "Saturday": []
+  },
+  "6404": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Information Security"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Computer Networks"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Data Warehousing & Business Intelligence"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Information Security"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Computer Networks"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Information Security"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Probability & Statistics"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Multivariable Calculus"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "12:30",
+     "end": "13:55",
+     "subject": "Probability & Statistics"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Probability & Statistics"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Multivariable Calculus"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Information Security"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Computer Architecture"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Functional English"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Fehm-e-Quran-1"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus"
+    }
+   ],
+   "Saturday": []
+  },
+  "6411": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Application of ICT"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Operating Systems"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Pakistan Studies"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Functional English"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Natural Language Processing"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Application of ICT"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Application of ICT"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Computer Architecture"
+    },
+    {
+     "start": "12:00",
+     "end": "13:00",
+     "subject": "Application of ICT"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Reserved for EE Dept Only for 9/9/26"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Pakistan Studies"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Functional English"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Reserved for Avionics Dept"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "09:30",
+     "end": "11:30",
+     "subject": "Reserved for Avionics Dept"
+    },
+    {
+     "start": "14:30",
+     "end": "16:00",
+     "subject": "Add Maths-1(For Pre-Medical)"
+    }
+   ],
+   "Saturday": []
+  },
+  "6405": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Analysis of Algorithms"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Analysis of Algorithms"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Web Technologies"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Knowledge Representation & Reasoning"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Artificial Neural Network & Deep Learning"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Cloud Computing"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Cloud Computing"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Analysis of Algorithms"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Analysis of Algorithms"
+    },
+    {
+     "start": "10:30",
+     "end": "12:00",
+     "subject": "Principles of Management"
+    },
+    {
+     "start": "12:00",
+     "end": "13:30",
+     "subject": "Principles of Management"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Cloud Computing"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Cloud Computing"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Analysis of Algorithms"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Analysis of Algorithms"
+    },
+    {
+     "start": "10:30",
+     "end": "12:00",
+     "subject": "Principles of Management"
+    },
+    {
+     "start": "12:00",
+     "end": "13:30",
+     "subject": "Principles of Management"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Business Process Analysis"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Data Mining"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Operating Systems"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Mobile Application Development"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Mobile Application Development"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Social Science (Example: Applied Psychology)"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Fehm e Quran 1"
+    },
+    {
+     "start": "11:30",
+     "end": "12:25",
+     "subject": "Artificial Neural Network & Deep Learning"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Mobile Application Development"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Mobile Application Development"
+    }
+   ],
+   "Saturday": []
+  },
+  "7306": {
+   "Monday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Data Structures"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Natural Language Processing"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Social Science (Example: Applied Psychology)"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Social Science (Example: Applied Psychology)"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Technical & Business Writing"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Technical & Business Writing"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Data Structures"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Computer Architecture"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Social Science (Example: Applied Psychology)"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Social Science (Example: Applied Psychology)"
+    },
+    {
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Technical & Business Writing"
+    },
+    {
+     "start": "15:00",
+     "end": "16:00",
+     "subject": "Technical & Business Writing"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Data Warehousing & Business Intelligence"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Data Mining"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Entrepreneurship"
+    },
+    {
+     "start": "12:00",
+     "end": "14:00",
+     "subject": "Entrepreneurship"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "09:30",
+     "end": "11:00",
+     "subject": "Fehm-e-Quran-1"
+    },
+    {
+     "start": "11:00",
+     "end": "12:30",
+     "subject": "Probability & Statistics"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Social Science (Example: Applied Psychology)"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Social Science (Example: Applied Psychology)"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Technical & Business Writing"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Technical & Business Writing"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Social Science (Example: Applied Psychology)"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Business Process Analysis"
+    }
+   ],
+   "Saturday": []
+  },
+  "7308": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Data Structures"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Information Security"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Computer Networks"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Computer Networks"
+    },
+    {
+     "start": "14:30",
+     "end": "15:30",
+     "subject": "Computer Networks"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Data Structures"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Information Security"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Computer Networks"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Computer Networks"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Computer Networks"
+    },
+    {
+     "start": "14:30",
+     "end": "15:30",
+     "subject": "Computer Networks"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Data Structures"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Computer Networks"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Probability & Statistics"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Multivariable Calculus"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Multivariable Calculus"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Fehm-e-Quran-II"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Multivariable Calculus"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Fehm-e-Quran-II"
+    }
+   ],
+   "Saturday": []
+  },
+  "7320": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Information Security"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Probability & Statistics"
+    },
+    {
+     "start": "11:00",
+     "end": "12:00",
+     "subject": "Pakistan Studies"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Pakistan Studies"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Pakistan Studies"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Entrepreneurship"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Data Structures"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Probability & Statistics"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Probability & Statistics"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Information Security"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "09:00",
+     "end": "10:00",
+     "subject": "Probability & Statistics"
+    },
+    {
+     "start": "10:00",
+     "end": "11:30",
+     "subject": "Fehm-e-Quran-II"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Information Security"
+    },
+    {
+     "start": "12:30",
+     "end": "14:00",
+     "subject": "Fehm-e-Quran-1"
+    }
+   ],
+   "Saturday": []
+  },
+  "7322": {
+   "Monday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Data Structures"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Probability & Statistics"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Multivariable Calculus"
+    },
+    {
+     "start": "14:30",
+     "end": "15:30",
+     "subject": "Probability & Statistics"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "10:00",
+     "subject": "Fehm-e-Quran-II"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Data Structures"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Multivariable Calculus"
+    },
+    {
+     "start": "14:30",
+     "end": "15:30",
+     "subject": "Probability & Statistics"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Operating Systems"
+    },
+    {
+     "start": "12:00",
+     "end": "13:00",
+     "subject": "Data Mining"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Software Engineering"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Data Structures"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Probability & Statistics"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Multivariable Calculus"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Quantitative reasoning -I"
+    }
+   ],
+   "Saturday": []
+  },
+  "7418": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Functional English"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Information Security"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Natural Language Processing"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Information Security"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Functional English"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Information Security"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Fehm-e-Quran-II"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Data Structures"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Data Structures"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Functional English"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Programming Fundamentals"
+    },
+    {
+     "start": "10:30",
+     "end": "11:30",
+     "subject": "Quantitative reasoning -I"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Data Structures"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Data Structures"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Data Structures"
+    },
+    {
+     "start": "12:30",
+     "end": "13:30",
+     "subject": "Data Structures"
+    }
+   ],
+   "Saturday": []
+  }
+ },
+ "labs": {
+  "IT Lab 1": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Programming Fundamentals Lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Application of Information & Communication Technologies- Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Application of Information & Communication Technologies- Lab"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Application of Information & Communication Technologies- Lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Application of Information & Communication Technologies- Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Programming Fundamentals Lab"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Programming Fundamentals Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Programming Fundamentals Lab"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Data Mining Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Application of Information & Communication Technologies- Lab"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Data Structures Lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Programming Fundamentals Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Information Security Lab"
+    }
+   ],
+   "Saturday": []
+  },
+  "IT Lab 2": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Computer Networks Lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Computer Networks Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Natural Language Processing Lab"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Data Structures Lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Data Structures Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Information Security Lab"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Operating Systems Lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Information Security Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Information Security Lab"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Operating Systems Lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Computer Architecture Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Information Security Lab"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Mobile Application Development Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Data Structures Lab"
+    }
+   ],
+   "Saturday": []
+  },
+  "IT Lab 3": {
+   "Monday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Operating Systems Lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Cloud Computing Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Web Technologies Lab"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Operating Systems Lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Data Warehousing & Business Intelligence Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Natural Language Processing Lab"
+    }
+   ],
+   "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "HCI & Computer Graphics-Lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "HCI & Computer Graphics-Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Computer Networks Lab"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Web Technologies Lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Mobile Application Development Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Artificial Neural Network & Deep Learning-Lab"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Computer Architecture Lab"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Cloud Computing Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Business Process Analysis"
+    }
+   ],
+   "Saturday": []
+  },
+  "IT Lab 4": {
+   "Monday": [],
+   "Tuesday": [],
+   "Wednesday": [],
+   "Thursday": [],
+   "Friday": [],
+   "Saturday": []
+  },
+  "IT Lab 5": {
+   "Monday": [
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Data Structures Lab"
+    }
+   ],
+   "Tuesday": [
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Data Mining Lab"
+    }
+   ],
+   "Wednesday": [],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Reserved for Space Science Dept"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Reserved for Materials Dept"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Computer Networks Lab"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Reserved for Space Science Dept"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Computer Networks Lab"
+    }
+   ],
+   "Saturday": []
+  }
+ }
+}
