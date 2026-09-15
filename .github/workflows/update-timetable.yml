@@ -1,0 +1,32 @@
+# Every 30 minutes: download the Google Sheet as .xlsx, rebuild timetable.json,
+# and commit it only if something changed. GitHub Pages then serves the new file.
+name: Update timetable
+on:
+  schedule:
+    - cron: "*/30 3-12 * * 1-6"   # every 30 min, 8am to 5pm Pakistan time, Mon to Sat
+  workflow_dispatch:              # adds a "Run workflow" button for manual updates
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install openpyxl
+      - name: Download sheet
+        run: curl -L -f -o timetable.xlsx "https://docs.google.com/spreadsheets/d/${{ secrets.SHEET_ID }}/export?format=xlsx"
+      - name: Parse
+        run: |
+          cp timetable.json old.json
+          python parse_timetable.py timetable.xlsx timetable.json
+      - name: Commit if the timetable changed
+        run: |
+          # ignore the timestamp when comparing
+          python -c "import json,sys;a,b=[json.load(open(f)) for f in ('old.json','timetable.json')];[d['meta'].pop('generatedAt') for d in (a,b)];sys.exit(0 if a==b else 1)" && exit 0
+          git config user.name "timetable-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add timetable.json
+          git commit -m "Timetable update"
+          git push
