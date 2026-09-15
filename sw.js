@@ -1,6 +1,6 @@
 // Service worker: app files are cached for offline use.
 // timetable.json is fetched fresh when online, and the saved copy is used when offline.
-const CACHE = "ist-timetable-v1"; // change this name whenever you edit app files
+const CACHE = "ist-timetable-v2"; // change this name whenever you edit app files
 const SHELL = ["./", "index.html", "style.css", "app.js", "manifest.json",
                "icons/icon-192.png", "icons/icon-512.png", "timetable.json"];
 

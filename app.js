@@ -1,9 +1,11 @@
 // IST Timetable app. Loads timetable.json (network first, cache when offline).
 const PX_PER_MIN = 1.4;
+const MIN_FREE = 20; // a room counts as free only if it stays free at least this many minutes
 const WEEKDAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 const $ = (s) => document.querySelector(s);
 const toMin = (t) => { const [h, m] = t.split(":").map(Number); return h * 60 + m; };
 const to12 = (t) => { let [h, m] = t.split(":").map(Number); const ap = h >= 12 ? "pm" : "am"; h = h % 12 || 12; return `${h}:${String(m).padStart(2, "0")} ${ap}`; };
+const hhmm = (m) => `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
 const plural = (n, word) => `${n} ${n === 1 ? word.slice(0, -1) : word}`;
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
@@ -101,6 +103,17 @@ function busyMap(kind, day) {
   for (const [name, days] of Object.entries(data[kind])) out[name] = (days[day] || []).map((o) => [toMin(o.start), toMin(o.end)]);
   return out;
 }
+// Free stretches for one room, ignoring any shorter than MIN_FREE minutes
+function freeGaps(intervals, dayStart, dayEnd) {
+  const gaps = [];
+  let t = dayStart;
+  for (const [s, e] of [...intervals].sort((x, y) => x[0] - y[0])) {
+    if (s > t) gaps.push([t, s]);
+    t = Math.max(t, e);
+  }
+  if (t < dayEnd) gaps.push([t, dayEnd]);
+  return gaps.filter(([a, b]) => b - a >= MIN_FREE);
+}
 const sortNames = (a, b) => a.localeCompare(b, undefined, { numeric: true });
 
 function renderFree() {
@@ -114,12 +127,12 @@ function renderFree() {
     if (!WEEKDAYS.includes(day)) { list.innerHTML = `<p class="empty">No classes today, so every ${label.slice(0, -1)} is free.</p>`; return; }
     if (min < dayStart || min >= dayEnd) { list.innerHTML = `<p class="empty">Classes run from ${to12(data.meta.dayStart)} to ${to12(data.meta.dayEnd)}. Outside those hours every ${label.slice(0, -1)} is free.</p>`; return; }
     const busy = busyMap(state.freeKind, day);
-    const free = Object.keys(busy).sort(sortNames).filter((r) => !busy[r].some(([s, e]) => s <= min && min < e))
-      .map((r) => {
-        const next = busy[r].map(([s]) => s).filter((s) => s > min).sort((a, b) => a - b)[0] ?? dayEnd;
-        const t = `${String(Math.floor(next / 60)).padStart(2, "0")}:${String(next % 60).padStart(2, "0")}`;
-        return `<span class="chip">${esc(r)} <small>until ${to12(t)}</small></span>`;
-      });
+    const free = Object.keys(busy).sort(sortNames).map((r) => {
+      // the room must be free now AND stay free for at least MIN_FREE more minutes
+      const gap = freeGaps(busy[r], dayStart, dayEnd).find(([a, b]) => a <= min && min < b && b - min >= MIN_FREE);
+      return gap && [r, gap[1]];
+    }).filter(Boolean).map(([r, until]) =>
+      `<span class="chip">${esc(r)} <small>until ${to12(hhmm(until))}</small></span>`);
     list.innerHTML = `<div class="slot"><h3>Free now</h3><p class="count">${plural(free.length, label)}</p>
       <div class="chips">${free.join("") || `<span class="count">All ${label} are in use.</span>`}</div></div>`;
     return;
@@ -128,17 +141,18 @@ function renderFree() {
   // By time: split the day at every start/end time, so each window has a fixed free set
   dayButtons($("#days-free"), state.freeDay, (d) => { state.freeDay = d; render(); });
   const busy = busyMap(state.freeKind, state.freeDay);
+  const gaps = {};
+  for (const r of Object.keys(busy)) gaps[r] = freeGaps(busy[r], dayStart, dayEnd);
   const cuts = new Set([dayStart, dayEnd]);
-  Object.values(busy).flat().forEach(([s, e]) => { cuts.add(s); cuts.add(e); });
-  const pts = [...cuts].filter((m) => m >= dayStart && m <= dayEnd).sort((a, b) => a - b);
+  Object.values(gaps).flat().forEach(([a, b]) => { cuts.add(a); cuts.add(b); });
+  const pts = [...cuts].sort((a, b) => a - b);
   const windows = [];
   for (let i = 0; i < pts.length - 1; i++) {
     const [a, b] = [pts[i], pts[i + 1]];
-    const free = Object.keys(busy).sort(sortNames).filter((r) => !busy[r].some(([s, e]) => s < b && a < e));
+    const free = Object.keys(gaps).sort(sortNames).filter((r) => gaps[r].some(([s, e]) => s <= a && b <= e));
     const prev = windows[windows.length - 1];
     if (prev && prev.free.join() === free.join()) prev.b = b; else windows.push({ a, b, free });
   }
-  const hhmm = (m) => `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
   list.innerHTML = windows.map((w) => `<div class="slot">
     <h3>${to12(hhmm(w.a))} to ${to12(hhmm(w.b))}</h3>
     <p class="count">${w.free.length} free ${w.free.length === 1 ? label.slice(0, -1) : label}</p>
