@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generatedAt": "2026-09-15T18:00+00:00",
+  "generatedAt": "2026-09-20T14:13+00:00",
   "source": "timetable.xlsx",
   "days": [
    "Monday",
@@ -164,7 +164,7 @@
     },
     {
      "start": "11:00",
-     "end": "12:00",
+     "end": "13:00",
      "subject": "Pakistan Studies",
      "room": "7320",
      "type": "class"
@@ -191,13 +191,6 @@
      "subject": "Application of Information & Communication Technologies- Lab",
      "room": "IT Lab 1",
      "type": "lab"
-    },
-    {
-     "start": "13:30",
-     "end": "14:30",
-     "subject": "Pakistan Studies",
-     "room": "7320",
-     "type": "class"
     },
     {
      "start": "14:30",
@@ -253,13 +246,6 @@
      "type": "class"
     },
     {
-     "start": "13:30",
-     "end": "14:30",
-     "subject": "Pakistan Studies",
-     "room": "6323",
-     "type": "class"
-    },
-    {
      "start": "15:00",
      "end": "16:00",
      "subject": "Advisory /Tuturial Session",
@@ -281,13 +267,6 @@
      "subject": "Programming Fundamentals Lab",
      "room": "IT Lab 1",
      "type": "lab"
-    },
-    {
-     "start": "13:30",
-     "end": "14:30",
-     "subject": "Pakistan Studies",
-     "room": "6323",
-     "type": "class"
     }
    ],
    "Saturday": []
@@ -316,13 +295,6 @@
      "type": "lab"
     },
     {
-     "start": "13:30",
-     "end": "14:30",
-     "subject": "Pakistan Studies",
-     "room": "6411",
-     "type": "class"
-    },
-    {
      "start": "14:30",
      "end": "16:00",
      "subject": "Add Maths-1(For Pre-Medical)",
@@ -346,7 +318,7 @@
      "type": "class"
     },
     {
-     "start": "12:30",
+     "start": "11:30",
      "end": "13:30",
      "subject": "Pakistan Studies",
      "room": "7320",
@@ -463,13 +435,6 @@
     },
     {
      "start": "14:00",
-     "end": "15:00",
-     "subject": "Quantitative reasoning -I",
-     "room": "6401",
-     "type": "class"
-    },
-    {
-     "start": "15:00",
      "end": "16:00",
      "subject": "Pakistan Studies",
      "room": "6401",
@@ -492,9 +457,9 @@
      "type": "class"
     },
     {
-     "start": "15:00",
-     "end": "16:00",
-     "subject": "Pakistan Studies",
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Quantitative reasoning -I",
      "room": "6401",
      "type": "class"
     }
@@ -508,19 +473,26 @@
      "type": "class"
     },
     {
-     "start": "13:30",
+     "start": "14:00",
      "end": "16:00",
-     "subject": "Programming Fundamentals Lab",
-     "room": "IT Lab 1",
-     "type": "lab"
+     "subject": "Activities SLOT(14:00-16:00)",
+     "room": null,
+     "type": "activity"
     }
    ],
    "Thursday": [
     {
      "start": "08:30",
-     "end": "09:30",
+     "end": "11:00",
+     "subject": "Programming Fundamentals Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
      "subject": "Programming Fundamentals",
-     "room": "6402",
+     "room": "6411",
      "type": "class"
     },
     {
@@ -566,13 +538,6 @@
   "CS-07-B": {
    "Monday": [
     {
-     "start": "08:30",
-     "end": "09:30",
-     "subject": "Pakistan Studies",
-     "room": "6323",
-     "type": "class"
-    },
-    {
      "start": "09:30",
      "end": "10:30",
      "subject": "Programming Fundamentals",
@@ -597,16 +562,9 @@
    "Tuesday": [
     {
      "start": "08:30",
-     "end": "09:30",
-     "subject": "Pakistan Studies",
-     "room": "6323",
-     "type": "class"
-    },
-    {
-     "start": "09:30",
      "end": "10:30",
-     "subject": "Functional English",
-     "room": "7418",
+     "subject": "Pakistan Studies",
+     "room": "7320",
      "type": "class"
     },
     {
@@ -614,6 +572,13 @@
      "end": "11:30",
      "subject": "Quantitative reasoning -I",
      "room": "7418",
+     "type": "class"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Functional English",
+     "room": "7320",
      "type": "class"
     },
     {
@@ -782,7 +747,7 @@
      "start": "09:30",
      "end": "10:30",
      "subject": "Software Engineering",
-     "room": "7322",
+     "room": "6404",
      "type": "class"
     },
     {
@@ -811,13 +776,6 @@
     {
      "start": "09:30",
      "end": "10:30",
-     "subject": "Software Engineering",
-     "room": "7322",
-     "type": "class"
-    },
-    {
-     "start": "10:30",
-     "end": "11:30",
      "subject": "Information Security",
      "room": "7322",
      "type": "class"
@@ -860,6 +818,13 @@
      "type": "class"
     },
     {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Software Engineering",
+     "room": "7418",
+     "type": "class"
+    },
+    {
      "start": "11:30",
      "end": "12:30",
      "subject": "Data Structures",
@@ -895,7 +860,7 @@
     {
      "start": "12:30",
      "end": "13:30",
-     "subject": "Software Engineering",
+     "subject": "Multivariable Calculus",
      "room": "7308",
      "type": "class"
     },
@@ -918,7 +883,7 @@
     {
      "start": "08:30",
      "end": "09:30",
-     "subject": "Multivariable Calculus",
+     "subject": "Software Engineering",
      "room": "6402",
      "type": "class"
     },
@@ -953,6 +918,13 @@
    ],
    "Wednesday": [
     {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Software Engineering",
+     "room": "7418",
+     "type": "class"
+    },
+    {
      "start": "09:30",
      "end": "10:30",
      "subject": "Fehm-e-Quran-II",
@@ -967,18 +939,18 @@
      "type": "class"
     },
     {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus",
+     "room": "7320",
+     "type": "class"
+    },
+    {
      "start": "12:30",
      "end": "13:30",
      "subject": "Data Structures",
      "room": "7418",
      "type": "class"
-    },
-    {
-     "start": "13:30",
-     "end": "16:00",
-     "subject": "Information Security Lab",
-     "room": "IT Lab 2",
-     "type": "lab"
     }
    ],
    "Thursday": [
@@ -1021,17 +993,10 @@
    "Friday": [
     {
      "start": "08:30",
-     "end": "09:30",
-     "subject": "Software Engineering",
-     "room": "7308",
-     "type": "class"
-    },
-    {
-     "start": "10:30",
-     "end": "11:30",
-     "subject": "Multivariable Calculus",
-     "room": "7308",
-     "type": "class"
+     "end": "11:00",
+     "subject": "Information Security Lab",
+     "room": "IT Lab 2",
+     "type": "lab"
     },
     {
      "start": "11:30",
@@ -1134,11 +1099,11 @@
    ],
    "Wednesday": [
     {
-     "start": "09:30",
-     "end": "10:30",
-     "subject": "Data Structures",
-     "room": "7320",
-     "type": "class"
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Computer Networks Lab",
+     "room": "IT Lab 1",
+     "type": "lab"
     },
     {
      "start": "11:00",
@@ -1149,10 +1114,10 @@
     },
     {
      "start": "13:30",
-     "end": "16:00",
-     "subject": "Computer Networks Lab",
-     "room": "IT Lab 3",
-     "type": "lab"
+     "end": "14:30",
+     "subject": "Data Structures",
+     "room": "6323",
+     "type": "class"
     }
    ],
    "Thursday": [
@@ -1438,17 +1403,17 @@
      "type": "class"
     },
     {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Multivariable Calculus",
+     "room": "7418",
+     "type": "class"
+    },
+    {
      "start": "10:30",
      "end": "11:30",
      "subject": "Software Engineering",
      "room": "7308",
-     "type": "class"
-    },
-    {
-     "start": "11:30",
-     "end": "12:30",
-     "subject": "Multivariable Calculus",
-     "room": "7320",
      "type": "class"
     },
     {
@@ -1594,7 +1559,7 @@
      "start": "09:30",
      "end": "10:30",
      "subject": "Natural Language Processing",
-     "room": "6402",
+     "room": "6404",
      "type": "class"
     },
     {
@@ -1613,13 +1578,6 @@
     }
    ],
    "Wednesday": [
-    {
-     "start": "08:30",
-     "end": "09:30",
-     "subject": "Data Warehousing & Business Intelligence",
-     "room": "7306",
-     "type": "class"
-    },
     {
      "start": "09:30",
      "end": "10:30",
@@ -1667,7 +1625,7 @@
     {
      "start": "13:30",
      "end": "14:30",
-     "subject": "Social Science (Example: Applied Psychology)",
+     "subject": "Data Warehousing & Business Intelligence",
      "room": "7306",
      "type": "class"
     },
@@ -1682,7 +1640,7 @@
    "Friday": [
     {
      "start": "08:30",
-     "end": "09:30",
+     "end": "10:30",
      "subject": "Social Science (Example: Applied Psychology)",
      "room": "6405",
      "type": "class"
@@ -1729,13 +1687,6 @@
     }
    ],
    "Tuesday": [
-    {
-     "start": "08:30",
-     "end": "11:00",
-     "subject": "Operating Systems Lab",
-     "room": "IT Lab 3",
-     "type": "lab"
-    },
     {
      "start": "11:30",
      "end": "12:30",
@@ -1834,11 +1785,11 @@
      "type": "class"
     },
     {
-     "start": "15:00",
+     "start": "13:30",
      "end": "16:00",
-     "subject": "Advisory /Tuturial Session",
-     "room": null,
-     "type": "advisory"
+     "subject": "Operating Systems Lab",
+     "room": "IT Lab 5",
+     "type": "lab"
     }
    ],
    "Saturday": []
@@ -1876,6 +1827,20 @@
    ],
    "Tuesday": [
     {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Operating Systems",
+     "room": "6411",
+     "type": "class"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Web Technologies",
+     "room": "6404",
+     "type": "class"
+    },
+    {
      "start": "10:30",
      "end": "11:30",
      "subject": "Computer Architecture",
@@ -1894,20 +1859,6 @@
      "end": "13:30",
      "subject": "Social Science (Example: Applied Psychology)",
      "room": "7306",
-     "type": "class"
-    },
-    {
-     "start": "14:00",
-     "end": "15:00",
-     "subject": "Operating Systems",
-     "room": "6323",
-     "type": "class"
-    },
-    {
-     "start": "15:00",
-     "end": "16:00",
-     "subject": "Web Technologies",
-     "room": "6323",
      "type": "class"
     }
    ],
@@ -2303,22 +2254,15 @@
    "Wednesday": [
     {
      "start": "08:30",
-     "end": "09:30",
+     "end": "10:30",
      "subject": "Entrepreneurship",
      "room": "7306",
      "type": "class"
     },
     {
-     "start": "09:30",
-     "end": "10:30",
-     "subject": "Analysis of Algorithms",
-     "room": "6405",
-     "type": "class"
-    },
-    {
      "start": "11:00",
      "end": "12:00",
-     "subject": "Entrepreneurship",
+     "subject": "Analysis of Algorithms",
      "room": "7306",
      "type": "class"
     },
@@ -2429,16 +2373,6 @@
      "start": "12:30",
      "end": "13:30",
      "subject": "Web Technologies"
-    },
-    {
-     "start": "14:00",
-     "end": "15:00",
-     "subject": "Operating Systems"
-    },
-    {
-     "start": "15:00",
-     "end": "16:00",
-     "subject": "Web Technologies"
     }
    ],
    "Wednesday": [
@@ -2461,6 +2395,11 @@
      "start": "12:30",
      "end": "13:30",
      "subject": "Data Structures"
+    },
+    {
+     "start": "13:30",
+     "end": "14:30",
+     "subject": "Data Structures"
     }
    ],
    "Thursday": [
@@ -2477,11 +2416,6 @@
     {
      "start": "12:30",
      "end": "13:30",
-     "subject": "Pakistan Studies"
-    },
-    {
-     "start": "13:30",
-     "end": "14:30",
      "subject": "Pakistan Studies"
     }
    ],
@@ -2504,11 +2438,6 @@
     {
      "start": "12:30",
      "end": "13:30",
-     "subject": "Pakistan Studies"
-    },
-    {
-     "start": "13:30",
-     "end": "14:30",
      "subject": "Pakistan Studies"
     }
    ],
@@ -2538,11 +2467,6 @@
     },
     {
      "start": "14:00",
-     "end": "15:00",
-     "subject": "Quantitative reasoning -I"
-    },
-    {
-     "start": "15:00",
      "end": "16:00",
      "subject": "Pakistan Studies"
     }
@@ -2564,9 +2488,9 @@
      "subject": "Functional English"
     },
     {
-     "start": "15:00",
-     "end": "16:00",
-     "subject": "Pakistan Studies"
+     "start": "14:00",
+     "end": "15:00",
+     "subject": "Quantitative reasoning -I"
     }
    ],
    "Wednesday": [
@@ -2674,7 +2598,7 @@
     {
      "start": "08:30",
      "end": "09:30",
-     "subject": "Multivariable Calculus"
+     "subject": "Software Engineering"
     },
     {
      "start": "09:30",
@@ -2725,11 +2649,6 @@
     }
    ],
    "Thursday": [
-    {
-     "start": "08:30",
-     "end": "09:30",
-     "subject": "Programming Fundamentals"
-    },
     {
      "start": "09:30",
      "end": "11:00",
@@ -2800,6 +2719,11 @@
      "subject": "Information Security"
     },
     {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Web Technologies"
+    },
+    {
      "start": "10:30",
      "end": "11:30",
      "subject": "Computer Networks"
@@ -2827,6 +2751,11 @@
      "subject": "Probability & Statistics"
     },
     {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Software Engineering"
+    },
+    {
      "start": "10:30",
      "end": "11:30",
      "subject": "Multivariable Calculus"
@@ -2847,6 +2776,11 @@
      "start": "08:30",
      "end": "09:30",
      "subject": "Probability & Statistics"
+    },
+    {
+     "start": "09:30",
+     "end": "10:30",
+     "subject": "Natural Language Processing"
     },
     {
      "start": "10:30",
@@ -2918,6 +2852,11 @@
    ],
    "Tuesday": [
     {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Operating Systems"
+    },
+    {
      "start": "09:30",
      "end": "10:30",
      "subject": "Programming Fundamentals"
@@ -2968,11 +2907,6 @@
      "start": "12:00",
      "end": "13:00",
      "subject": "Application of ICT"
-    },
-    {
-     "start": "14:30",
-     "end": "16:00",
-     "subject": "Reserved for EE Dept Only for 9/9/26"
     }
    ],
    "Thursday": [
@@ -2990,6 +2924,11 @@
      "start": "10:30",
      "end": "11:30",
      "subject": "Functional English"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Programming Fundamentals"
     },
     {
      "start": "12:30",
@@ -3010,7 +2949,7 @@
     },
     {
      "start": "09:30",
-     "end": "11:30",
+     "end": "12:30",
      "subject": "Reserved for Avionics Dept"
     },
     {
@@ -3098,11 +3037,6 @@
      "subject": "Analysis of Algorithms"
     },
     {
-     "start": "09:30",
-     "end": "10:30",
-     "subject": "Analysis of Algorithms"
-    },
-    {
      "start": "10:30",
      "end": "12:00",
      "subject": "Principles of Management"
@@ -3143,7 +3077,7 @@
    "Friday": [
     {
      "start": "08:30",
-     "end": "09:30",
+     "end": "10:30",
      "subject": "Social Science (Example: Applied Psychology)"
     },
     {
@@ -3236,11 +3170,6 @@
    ],
    "Wednesday": [
     {
-     "start": "08:30",
-     "end": "09:30",
-     "subject": "Data Warehousing & Business Intelligence"
-    },
-    {
      "start": "09:30",
      "end": "10:30",
      "subject": "Data Mining"
@@ -3248,7 +3177,7 @@
     {
      "start": "11:00",
      "end": "12:00",
-     "subject": "Entrepreneurship"
+     "subject": "Analysis of Algorithms"
     },
     {
      "start": "12:00",
@@ -3275,7 +3204,7 @@
     {
      "start": "13:30",
      "end": "14:30",
-     "subject": "Social Science (Example: Applied Psychology)"
+     "subject": "Data Warehousing & Business Intelligence"
     }
    ],
    "Friday": [
@@ -3327,7 +3256,7 @@
     {
      "start": "12:30",
      "end": "13:30",
-     "subject": "Software Engineering"
+     "subject": "Multivariable Calculus"
     },
     {
      "start": "13:30",
@@ -3428,16 +3357,6 @@
    ],
    "Friday": [
     {
-     "start": "08:30",
-     "end": "09:30",
-     "subject": "Software Engineering"
-    },
-    {
-     "start": "10:30",
-     "end": "11:30",
-     "subject": "Multivariable Calculus"
-    },
-    {
      "start": "11:30",
      "end": "12:30",
      "subject": "Fehm-e-Quran-II"
@@ -3459,42 +3378,37 @@
     },
     {
      "start": "11:00",
-     "end": "12:00",
+     "end": "13:00",
      "subject": "Pakistan Studies"
     }
    ],
    "Tuesday": [
     {
-     "start": "11:30",
-     "end": "12:30",
-     "subject": "Multivariable Calculus"
-    },
-    {
-     "start": "12:30",
-     "end": "13:30",
+     "start": "08:30",
+     "end": "10:30",
      "subject": "Pakistan Studies"
     },
     {
-     "start": "13:30",
-     "end": "14:30",
+     "start": "11:30",
+     "end": "13:30",
      "subject": "Pakistan Studies"
     }
    ],
    "Wednesday": [
     {
      "start": "08:30",
-     "end": "09:30",
-     "subject": "Entrepreneurship"
-    },
-    {
-     "start": "09:30",
      "end": "10:30",
-     "subject": "Data Structures"
+     "subject": "Entrepreneurship"
     },
     {
      "start": "10:30",
      "end": "11:30",
      "subject": "Probability & Statistics"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Multivariable Calculus"
     }
    ],
    "Thursday": [
@@ -3507,6 +3421,11 @@
      "start": "10:30",
      "end": "11:30",
      "subject": "Information Security"
+    },
+    {
+     "start": "11:30",
+     "end": "12:30",
+     "subject": "Functional English"
     }
    ],
    "Friday": [
@@ -3595,11 +3514,6 @@
    ],
    "Wednesday": [
     {
-     "start": "09:30",
-     "end": "10:30",
-     "subject": "Software Engineering"
-    },
-    {
      "start": "10:30",
      "end": "11:30",
      "subject": "Operating Systems"
@@ -3612,9 +3526,14 @@
    ],
    "Thursday": [
     {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Information Security"
+    },
+    {
      "start": "09:30",
      "end": "10:30",
-     "subject": "Software Engineering"
+     "subject": "Information Security"
     },
     {
      "start": "10:30",
@@ -3683,7 +3602,7 @@
     {
      "start": "09:30",
      "end": "10:30",
-     "subject": "Functional English"
+     "subject": "Multivariable Calculus"
     },
     {
      "start": "10:30",
@@ -3697,6 +3616,11 @@
     }
    ],
    "Wednesday": [
+    {
+     "start": "08:30",
+     "end": "09:30",
+     "subject": "Software Engineering"
+    },
     {
      "start": "09:30",
      "end": "10:30",
@@ -3746,6 +3670,11 @@
     }
    ],
    "Friday": [
+    {
+     "start": "10:00",
+     "end": "11:00",
+     "subject": "Software Engineering"
+    },
     {
      "start": "11:30",
      "end": "12:30",
@@ -3798,17 +3727,22 @@
    ],
    "Wednesday": [
     {
-     "start": "11:00",
-     "end": "13:30",
-     "subject": "Programming Fundamentals Lab"
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Computer Networks Lab"
     },
     {
-     "start": "13:30",
-     "end": "16:00",
+     "start": "11:00",
+     "end": "13:30",
      "subject": "Programming Fundamentals Lab"
     }
    ],
    "Thursday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Programming Fundamentals Lab"
+    },
     {
      "start": "11:00",
      "end": "13:30",
@@ -3888,7 +3822,7 @@
     {
      "start": "13:30",
      "end": "16:00",
-     "subject": "Information Security Lab"
+     "subject": "Resrved for Avionics Dept"
     }
    ],
    "Thursday": [
@@ -3909,6 +3843,11 @@
     }
    ],
    "Friday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Information Security Lab"
+    },
     {
      "start": "11:00",
      "end": "13:30",
@@ -3944,7 +3883,7 @@
     {
      "start": "08:30",
      "end": "11:00",
-     "subject": "Operating Systems Lab"
+     "subject": "Reserved for Makeups"
     },
     {
      "start": "11:00",
@@ -3967,11 +3906,6 @@
      "start": "11:00",
      "end": "13:30",
      "subject": "HCI & Computer Graphics-Lab"
-    },
-    {
-     "start": "13:30",
-     "end": "16:00",
-     "subject": "Computer Networks Lab"
     }
    ],
    "Thursday": [
@@ -4011,11 +3945,45 @@
    "Saturday": []
   },
   "IT Lab 4": {
-   "Monday": [],
+   "Monday": [
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Reserved for Materials Dept"
+    }
+   ],
    "Tuesday": [],
-   "Wednesday": [],
-   "Thursday": [],
-   "Friday": [],
+   "Wednesday": [
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Reserved for Materials Dept"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Reserved for EE Dept"
+    }
+   ],
+   "Thursday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Reserved for Space Science Dept"
+    },
+    {
+     "start": "11:00",
+     "end": "13:30",
+     "subject": "Reserved for Materials Dept"
+    }
+   ],
+   "Friday": [
+    {
+     "start": "08:30",
+     "end": "11:00",
+     "subject": "Reserved for Space Science Dept"
+    }
+   ],
    "Saturday": []
   },
   "IT Lab 5": {
@@ -4036,16 +4004,6 @@
    "Wednesday": [],
    "Thursday": [
     {
-     "start": "08:30",
-     "end": "11:00",
-     "subject": "Reserved for Space Science Dept"
-    },
-    {
-     "start": "11:00",
-     "end": "13:30",
-     "subject": "Reserved for Materials Dept"
-    },
-    {
      "start": "13:30",
      "end": "16:00",
      "subject": "Computer Networks Lab"
@@ -4053,14 +4011,14 @@
    ],
    "Friday": [
     {
-     "start": "08:30",
-     "end": "11:00",
-     "subject": "Reserved for Space Science Dept"
-    },
-    {
      "start": "11:00",
      "end": "13:30",
      "subject": "Computer Networks Lab"
+    },
+    {
+     "start": "13:30",
+     "end": "16:00",
+     "subject": "Operating Systems Lab"
     }
    ],
    "Saturday": []
